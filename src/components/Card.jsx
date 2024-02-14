@@ -15,7 +15,7 @@ export default ({ loading, error, user, reload }) => {
     }
 
     return (
-        <div style={{ "display": "flex", "flexDirection": "column" }}>
+        <div className="card-wrapper">
             <h1>Meet Random People</h1>
             <div className="card user-card">
                 <img src={user[0].picture.large} ></img>
